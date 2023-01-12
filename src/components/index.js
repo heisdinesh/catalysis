@@ -1,0 +1,9 @@
+export {default as About} from "./About";
+export {default as Events} from "./Events"
+export {default as FAQ} from "./FAQ";
+export {default as Footer} from "./Footer";
+export {default as Landing} from "./Landing";
+export {default as Navbar} from "./Navbar";
+export {default as Registeration} from "./Registeration"
+export {default as Sponsers} from "./Sponsers"
+export {default as Winners} from "./Winners";
