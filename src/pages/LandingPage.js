@@ -3,14 +3,14 @@ import {About,Events,FAQ,Footer,Landing,Navbar,Registeration,Sponsers,Winners} f
 const LandingPage = () => {
   return (
     <div><p>hello</p>
-        <Navbar />
+        {/* <Navbar />
         <Landing />
         <About />
         <Events />
-        <Registeration />
+        <Registeration /> */}
         <Sponsers />
-        <FAQ />
-        <Footer />
+        {/* <FAQ />
+        <Footer /> */}
     </div>
   )
 }
