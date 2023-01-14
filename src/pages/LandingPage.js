@@ -1,16 +1,16 @@
 import React from 'react'
-import {About,Events,FAQ,Footer,Landing,Navbar,Registeration,Sponsers,Winners} from "../components"
+import {About,Events,FAQ,Footer,Landing,Navbar,Registeration,Sponsers} from "../components"
 const LandingPage = () => {
   return (
     <div><p>hello</p>
-        {/* <Navbar />
+        <Navbar />
         <Landing />
         <About />
         <Events />
-        <Registeration /> */}
+        <Registeration />
         <Sponsers />
-        {/* <FAQ />
-        <Footer /> */}
+        <FAQ />
+        <Footer />
     </div>
   )
 }
