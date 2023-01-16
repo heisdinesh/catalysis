@@ -7,8 +7,8 @@ const LandingPage = () => {
         <Landing />
         <About />
         <Events />
-        <Registeration />
-        <Sponsers />
+        {/*<Registeration />*/}
+        {/*<Sponsers />*/}
         <FAQ />
         <Footer />
     </div>
