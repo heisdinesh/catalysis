@@ -7,11 +7,11 @@ const FAQ = () => {
     const [open4, setOpen4] = useState(false);
     const [open5, setOpen5] = useState(false);
     return (
-        <div style={{backgroundColor: "#071E22"}}>
-            <h1 className="font-bold text-center text-5xl p-16" style={{color:'#E5F2FF'}}>FAQs</h1>
+        <div className="py-[7%]" style={{backgroundColor: "#071E22"}}>
+            <h1 className="font-bold text-center text-5xl pb-16" style={{color:'#E5F2FF'}}>FAQs</h1>
             <div className="">
 
-                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-40 my-2" style={{backgroundColor: "#E5F2FF"}}>
+                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{backgroundColor: "#E5F2FF"}}>
                     <button
                         className="w-full text-left p-4"
                         onClick={() => setOpen1(!open1)}
@@ -45,7 +45,7 @@ const FAQ = () => {
 
             <div className="">
 
-                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-40 my-2" style={{backgroundColor: "#E5F2FF"}}>
+                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{backgroundColor: "#E5F2FF"}}>
                     <button
                         className="w-full text-left p-4"
                         onClick={() => setOpen2(!open2)}
@@ -79,7 +79,7 @@ const FAQ = () => {
 
             <div className="">
 
-                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-40 my-2" style={{backgroundColor: "#E5F2FF"}}>
+                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{backgroundColor: "#E5F2FF"}}>
                     <button
                         className="w-full text-left p-4"
                         onClick={() => setOpen3(!open3)}
@@ -113,7 +113,7 @@ const FAQ = () => {
 
             <div className="">
 
-                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-40 my-2" style={{backgroundColor: "#E5F2FF"}}>
+                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{backgroundColor: "#E5F2FF"}}>
                     <button
                         className="w-full text-left p-4"
                         onClick={() => setOpen4(!open4)}
@@ -147,7 +147,7 @@ const FAQ = () => {
 
             <div className="">
 
-                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-40 my-2" style={{backgroundColor: "#E5F2FF"}}>
+                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{backgroundColor: "#E5F2FF"}}>
                     <button
                         className="w-full text-left p-4"
                         onClick={() => setOpen5(!open5)}
