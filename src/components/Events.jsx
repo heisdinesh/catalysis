@@ -2,11 +2,12 @@ import React from 'react'
 
 const Events = () => {
 
-    const handleClick = () => {
-        const link = document.createElement("a");
-        link.href = "rulebook/CodingJam.pdf";
-        link.download = "CodingJam.pdf";
-        link.click();
+    const handleClick = (filename) => {
+        // const link = document.createElement("a");
+        // window.location.href = "../assets/rulebook/"+filename;
+        window.open("../assets/rulebook/"+filename, "_blank");
+        // link.download = filename;
+        // link.click();
     };
 
   return (
@@ -24,7 +25,7 @@ const Events = () => {
                 </div>
                 <br/><br/>
                 <div className="px-6 absolute bottom-5">
-                    <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={handleClick} style={{backgroundColor: "#071E22"}}>
+                    <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={() => {handleClick("CodeRed.pdf");}} style={{backgroundColor: "#071E22"}}>
                         Download Rule Sheet
                     </button>
                 </div>
@@ -40,7 +41,7 @@ const Events = () => {
                   </div>
                   <br/><br/>
                   <div className="px-6 absolute bottom-5">
-                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={handleClick}  style={{backgroundColor: "#071E22"}}>
+                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={() => {handleClick("CodingJam.pdf")}}  style={{backgroundColor: "#071E22"}}>
                           Download Rule Sheet
                       </button>
                   </div>
@@ -56,7 +57,7 @@ const Events = () => {
                   </div>
                   <br/><br/>
                   <div className="px-6 absolute bottom-5">
-                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={handleClick}  style={{backgroundColor: "#071E22"}}>
+                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={() => {handleClick("Debate.pdf")}}  style={{backgroundColor: "#071E22"}}>
                           Download Rule Sheet
                       </button>
                   </div>
@@ -72,7 +73,7 @@ const Events = () => {
                   </div>
                   <br/><br/>
                   <div className="px-6 absolute bottom-5">
-                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={handleClick}  style={{backgroundColor: "#071E22"}}>
+                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={() => {handleClick("Innovator.pdf")}}  style={{backgroundColor: "#071E22"}}>
                           Download Rule Sheet
                       </button>
                   </div>
@@ -88,7 +89,7 @@ const Events = () => {
                   </div>
                   <br/><br/>
                   <div className="px-6 absolute bottom-5">
-                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={handleClick}  style={{backgroundColor: "#071E22"}}>
+                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={() => {handleClick("CallToLaunch.pdf")}}  style={{backgroundColor: "#071E22"}}>
                           Download Rule Sheet
                       </button>
                   </div>
@@ -104,7 +105,7 @@ const Events = () => {
                   </div>
                   <br/><br/>
                   <div className="px-6 absolute bottom-5">
-                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={handleClick}  style={{backgroundColor: "#071E22"}}>
+                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={() => {handleClick("AirCrash.pdf")}}  style={{backgroundColor: "#071E22"}}>
                           Download Rule Sheet
                       </button>
                   </div>
@@ -120,7 +121,7 @@ const Events = () => {
                   </div>
                   <br/><br/>
                   <div className="px-6 absolute bottom-5">
-                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={handleClick}  style={{backgroundColor: "#071E22"}}>
+                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={() => {handleClick("Technoseek.pdf")}}  style={{backgroundColor: "#071E22"}}>
                           Download Rule Sheet
                       </button>
                   </div>
@@ -136,7 +137,7 @@ const Events = () => {
                   </div>
                   <br/><br/>
                   <div className="px-6 absolute bottom-5">
-                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={handleClick}  style={{backgroundColor: "#071E22"}}>
+                      <button className="text-white font-medium py-2 px-4 rounded-lg" onClick={() => {handleClick("Quiz.pdf")}}  style={{backgroundColor: "#071E22"}}>
                           Download Rule Sheet
                       </button>
                   </div>
