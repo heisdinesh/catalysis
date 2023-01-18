@@ -2,7 +2,7 @@ import React from 'react'
 import {About,Events,FAQ,Footer,Landing,Navbar,Registeration,Sponsers} from "../components"
 const LandingPage = () => {
   return (
-    <div><p>hello</p>
+    <div>
         <Navbar />
         <Landing />
         <About />
