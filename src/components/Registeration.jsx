@@ -5,7 +5,7 @@ const Registeration = () => {
     <div className='bg-[#E5F2FF] lg:max-w-full lg:py-16 lg:px-16 md:py-16 md:px-16 py-5 px-5'>
       <div className='lg:flex bg-[#071E22] lg:h-[855px] lg:rounded-[20px] md:rounded-[20px] md:py-10 py-10 rounded-[20px]'>
         <div>
-          <div className='font-[Inter] text-[#E5F2FF] lg:font-bold lg:text-left lg:text-center lg:text-5xl lg:p-10 md:font-bold md:text-center md:text-4xl font-bold text-center text-4xl mb-5'>
+          <div className='text-[#E5F2FF] lg:font-bold lg:text-left lg:text-center lg:text-5xl lg:p-10 md:font-bold md:text-center md:text-4xl font-bold text-center text-4xl mb-5'>
             REGISTRATIONS
           </div>
           <div className='lg:rounded-[20px] md:'>
