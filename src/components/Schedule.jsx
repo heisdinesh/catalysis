@@ -3,18 +3,18 @@ import React from 'react'
 const Schedule = () => {
   return (
     <div>
-        <div className='bg-[#091C22] lg:max-w-full lg:py-12 lg:px-16 md:py-16 md:px-16 py-5 px-5'>
-        <div className='text-[#E5F2FF] lg:font-bold lg:text-left lg:text-center lg:text-5xl lg:p-10'>Schedule</div>
-            <table class="border-collapse border border-slate-500 text-[#E5F2FF]">
+        <div className='bg-[#091C22] lg:max-w-full lg:py-12 lg:px-16 md:py-9 md:px-16 py-5 px-5'>
+        <div className='text-[#E5F2FF] lg:font-bold lg:text-center lg:text-5xl lg:p-10 md:font-bold md:text-center md:text-5xl md:p-5 font-bold text-center text-5xl p-5 '>Schedule</div>
+            <table class="border-collapse border border-slate-500 text-[#E5F2FF] mx-auto border-spacing-9">
                 <thead>
                     <tr>
-                    <th class="border border-slate-600 ">Date</th>
-                    <th class="border border-slate-600 ">Event</th>
-                    <th class="border border-slate-600 ">Time</th>
-                    <th class="border border-slate-600 ">Venue</th>
+                    <th class="border border-slate-600 lg:text-4xl lg:w-[180px] h">Date</th>
+                    <th class="border border-slate-600 lg:text-4xl lg:w-[320px]">Event</th>
+                    <th class="border border-slate-600 lg:text-4xl lg:w-[180px]">Time</th>
+                    <th class="border border-slate-600 lg:text-4xl lg:w-[180px]">Venue</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className='text-center lg:text-2xl lg:font-light'>
                     <tr>
                     <td class="border border-slate-700 ">23-01-2022</td>
                     <td class="border border-slate-700 ">Inaguration</td>
