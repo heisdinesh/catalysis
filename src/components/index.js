@@ -6,4 +6,5 @@ export {default as Landing} from "./Landing";
 export {default as Navbar} from "./Navbar";
 export {default as Registeration} from "./Registeration"
 export {default as Sponsers} from "./Sponsers"
+export {default as Schedule} from "./Schedule"
 export {default as Winners} from "./Winners";
