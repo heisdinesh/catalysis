@@ -19,7 +19,7 @@ const Schedule = () => {
                     <td class="border border-slate-700 ">23-01-2022</td>
                     <td class="border border-slate-700 ">Inaguration</td>
                     <td class="border border-slate-700 ">09:00-11:00</td>
-                    <td class="border border-slate-700 ">ISE</td>
+                    <td class="border border-slate-700 ">AV Auditorium</td>
                     </tr>
                     <tr>
                     <td class="border border-slate-700 ">23-01-2022</td>
@@ -37,7 +37,7 @@ const Schedule = () => {
                     <td class="border border-slate-700 ">23-01-2022</td>
                     <td class="border border-slate-700 ">Coding JAM</td>
                     <td class="border border-slate-700 ">02:00-05:00</td>
-                    <td class="border border-slate-700 ">All four labs</td>
+                    <td class="border border-slate-700 ">All four Labs</td>
                     </tr>
                     <tr>
                     <td class="border border-slate-700 ">24-01-2022</td>
@@ -67,19 +67,19 @@ const Schedule = () => {
                     <td class="border border-slate-700 ">25-01-2022</td>
                     <td class="border border-slate-700 ">Techno Seek</td>
                     <td class="border border-slate-700 ">12:00-03:00</td>
-                    <td class="border border-slate-700 ">Collage Campus</td>
+                    <td class="border border-slate-700 ">College Campus</td>
                     </tr>
                     <tr>
                     <td class="border border-slate-700 ">25-01-2022</td>
                     <td class="border border-slate-700 ">Prize Distribution</td>
                     <td class="border border-slate-700 ">03:00-04:00</td>
-                    <td class="border border-slate-700 ">College Campus</td>
+                    <td class="border border-slate-700 ">AV Auditorium</td>
                     </tr>
                     <tr>
                     <td class="border border-slate-700 ">25-01-2022</td>
                     <td class="border border-slate-700 ">Closing Ceremony</td>
                     <td class="border border-slate-700 ">04:00-04:30</td>
-                    <td class="border border-slate-700 ">ISE</td>
+                    <td class="border border-slate-700 ">AV Auditorium</td>
                     </tr>
                 </tbody>
             </table>
