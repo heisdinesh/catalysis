@@ -18,9 +18,9 @@ const Navbar = () => {
               <a href="#" onClick={() => {jump("landing")}} className="text-[#E5F2FF] font-medium sm:text-2xl text-[18px] sm:mr-8 mr-3">Home</a>
               <a href="#" onClick={() => {jump("about")}} className="text-[#E5F2FF] font-medium sm:text-2xl text-[18px] sm:mr-8 mr-3">About</a>
               <a href="#" onClick={() => {jump("event")}} className="text-[#E5F2FF] font-medium sm:text-2xl text-[18px] sm:mr-8 mr-3">Events</a>
-              <button className="pt-1 pb-2 sm:px-8 px-3 rounded-lg sm:mr-8"  style={{backgroundColor: "#00FDFB"}}>
+              {/* <button className="pt-1 pb-2 sm:px-8 px-3 rounded-lg sm:mr-8"  style={{backgroundColor: "#00FDFB"}}>
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLScPHYEWUOn239BvEt-L15O__OO1kaS_RxyCPrIg1Y1x0vISQw/viewform" target="_blank" className="text-[#071E22] font-medium sm:text-xl text-lg">Register</a>
-              </button>
+              </button> */}
           </div>
 
           <button
@@ -49,12 +49,12 @@ const Navbar = () => {
                   jump("event");
               }}>Events</a>
 
-              <button onClick={() => {
+              {/* <button onClick={() => {
                   setIsOpen(!isOpen);
                   // jump("registration");
               }} className="pt-1 pb-2 sm:px-8 px-3 rounded-lg sm:mr-8"  style={{backgroundColor: "#00FDFB"}}>
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLScPHYEWUOn239BvEt-L15O__OO1kaS_RxyCPrIg1Y1x0vISQw/viewform" target="_blank" className="text-[#071E22] font-medium sm:text-xl text-lg">Register</a>
-              </button>
+              </button> */}
           </div>
       </nav>
   )
