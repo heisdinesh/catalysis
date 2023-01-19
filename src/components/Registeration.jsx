@@ -9,7 +9,7 @@ const Registeration = () => {
             REGISTRATIONS
           </div>
           <div className='lg:rounded-[20px] md:'>
-          <iframe title='Google form' src="https://docs.google.com/forms/d/e/1FAIpQLSdSmpuyvNRn2gPFjJ8XhDRq6S25VzoMTZWXxkvG6-eARP7zlA/viewform?embedded=true" className='md:w-full md:h-[620px] lg:w-[620px] lg:h-[620px] w-full h-[520px]' frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe title='Google form' src="https://docs.google.com/forms/d/e/1FAIpQLScPHYEWUOn239BvEt-L15O__OO1kaS_RxyCPrIg1Y1x0vISQw/viewform?embedded=true" className='md:w-full md:h-[620px] lg:w-[620px] lg:h-[620px] w-full h-[520px]' frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           </div>
         </div>
         <div className="lg:mx-auto lg:my-auto">
