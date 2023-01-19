@@ -2,18 +2,18 @@ import React from 'react'
 
 const Registeration = () => {
   return (
-    <div className='container absolute bg-[#E5F2FF] max-w-full lg:h-[1024px] '>
-      <div className='flex justify-center container absolute bg-[#071E22] lg:w-[1236px] lg:h-[855px] mx-[12.5%] my-[5%] lg:rounded-[20px]'>
+    <div className='bg-[#E5F2FF] lg:max-w-full lg:py-16 lg:px-16 md:py-16 md:px-16 py-5 px-5'>
+      <div className='lg:flex bg-[#071E22] lg:h-[855px] lg:rounded-[20px] md:rounded-[20px] md:py-10 py-10 rounded-[20px]'>
         <div>
-        <div className='font-[Inter] text-[#E5F2FF] lg:font-[400] lg:text-[56px] lg:w-[436px] lg:h-[68px] lg:mt-[118px] lg:mb-[68px] lg:ml-[89px] lg:mr-[711px]'>
-          REGISTERATION
+          <div className='text-[#E5F2FF] lg:font-bold lg:text-center lg:text-5xl lg:p-10 md:font-bold md:text-center md:text-4xl font-bold text-center text-4xl mb-5'>
+            REGISTRATIONS
+          </div>
+          <div className='lg:rounded-[20px] md:'>
+          <iframe title='Google form' src="https://docs.google.com/forms/d/e/1FAIpQLScPHYEWUOn239BvEt-L15O__OO1kaS_RxyCPrIg1Y1x0vISQw/viewform?embedded=true" className='md:w-full md:h-[620px] lg:w-[620px] lg:h-[620px] w-full h-[520px]' frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
         </div>
-        <div className='lg:mt-[68px] lg:mb-[116px] lg:ml-[72px] lg:mr-[76px] lg:rounded-[20px]'>
-        <iframe title='Google form' src="https://docs.google.com/forms/d/e/1FAIpQLSdSmpuyvNRn2gPFjJ8XhDRq6S25VzoMTZWXxkvG6-eARP7zlA/viewform?embedded=true" width="470" height="485" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
-        </div>
-        <div className='absolute lg:w-[535px] lg:mt-[80px] lg:mb-[111px] lg:ml-[618px] lg:mr-[83px]'>
-        <img src={require('../assets/photo.JPG')} alt='Images' className='lg:w-[535px] lg:h-[664px] lg:rounded-[20px]'/>
+        <div className="lg:mx-auto lg:my-auto">
+        <img src={require('../assets/registration.png')} alt='Images' className='lg:w-[600px] lg:h-[720px] lg:my-auto md:w-[60%] md:h-[600px] md:mx-auto md:my-16 mt-12 w-[80%] h-[35%] rounded-[20px] mx-auto'/>
         </div>
       </div>
     </div>
@@ -21,21 +21,3 @@ const Registeration = () => {
 }
 
 export default Registeration
-
-
-// This is for small device and medium 
-    // <div className='container absolute  bg-[#E5F2FF] h-[100%] max-w-full h-[150%]'>
-    //   <div className='container absolute top-[2.5%] left-[2.5%] bg-[#071E22] w-[95%] rounded-[1.5vh] my-[2.5vh] h-[90%]'>
-    //     <div>
-    //     <div className='font-[Inter] text-[#E5F2FF] text-center text-[3vh] font-extrabold mt-[3.5%]'>
-    //       REGISTERATIONS
-    //     </div>
-    //     <div className='mt-[2.5%] h-[420px]'>
-    //     <iframe title='Google form' src="https://docs.google.com/forms/d/e/1FAIpQLSdSmpuyvNRn2gPFjJ8XhDRq6S25VzoMTZWXxkvG6-eARP7zlA/viewform?embedded=true" className='w-[100%] h-[420px]' frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    //     </div>
-    //     </div>
-    //     <div className='absolute mt-[2.5vh]'>
-    //       <img src={require('./photo.JPG')} alt='Images' className='w-[80%] h-[60%] rounded-[20px] mt-[3vh] mx-auto'/>
-    //     </div>
-    //   </div>
-    // </div>
