@@ -35,31 +35,31 @@ const Schedule = () => {
                     </tr>
                     <tr>
                     <td class="border border-slate-700 ">23-01-2022</td>
-                    <td class="border border-slate-700 ">Coding JAM(Coding Contest)</td>
+                    <td class="border border-slate-700 ">Coding JAM</td>
                     <td class="border border-slate-700 ">02:00-05:00</td>
                     <td class="border border-slate-700 ">All four labs</td>
                     </tr>
                     <tr>
                     <td class="border border-slate-700 ">24-01-2022</td>
-                    <td class="border border-slate-700 ">What's the Point(Debate)</td>
+                    <td class="border border-slate-700 ">What's the Point</td>
                     <td class="border border-slate-700 ">11:00-02:00</td>
                     <td class="border border-slate-700 ">Amphi Theater</td>
                     </tr>
                     <tr>
                     <td class="border border-slate-700 ">24-01-2022</td>
-                    <td class="border border-slate-700 ">Innovator(JAM)</td>
+                    <td class="border border-slate-700 ">Innovator</td>
                     <td class="border border-slate-700 ">02:00-05:00</td>
                     <td class="border border-slate-700 ">Amphi Theater</td>
                     </tr>
                     <tr>
                     <td class="border border-slate-700 ">24-01-2022</td>
-                    <td class="border border-slate-700 ">Call to Launch(Pitch an Idea)</td>
+                    <td class="border border-slate-700 ">Call to Launch</td>
                     <td class="border border-slate-700 ">10:00-01:00</td>
                     <td class="border border-slate-700 ">#009 and #205</td>
                     </tr>
                     <tr>
                     <td class="border border-slate-700 ">25-01-2022</td>
-                    <td class="border border-slate-700 ">Code Red(Valorant Gaming)</td>
+                    <td class="border border-slate-700 ">Code Red</td>
                     <td class="border border-slate-700 ">10:00-02:00</td>
                     <td class="border border-slate-700 ">Online</td>
                     </tr>
