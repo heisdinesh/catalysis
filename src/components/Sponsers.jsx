@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sponsers = () => {
   return (
-    <div>Sponsers</div>
+    <div id='sponsors'>Sponsers</div>
   )
 }
 

@@ -7,7 +7,7 @@ const FAQ = () => {
     const [open4, setOpen4] = useState(false);
     const [open5, setOpen5] = useState(false);
     return (
-        <div className="py-[7%]" style={{backgroundColor: "#071E22"}}>
+        <div className="py-[7%]" style={{backgroundColor: "#071E22"}} id='faq'>
             <h1 className="font-bold text-center text-5xl pb-16" style={{color:'#E5F2FF'}}>FAQs</h1>
             <div className="">
 
