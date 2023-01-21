@@ -14,6 +14,7 @@ const Sponsers = () => {
 
 
   return (
+
     <div  style={{backgroundColor: "#E5F2FF"}} >
       <h1 className="font-bold text-center text-5xl p-8" style={{color:'#071E22'}}>Sponsors</h1>
       <div className='flex'>
@@ -25,6 +26,8 @@ const Sponsers = () => {
       
     </div>
   );
+  
+  
 }
 
 export default Sponsers;

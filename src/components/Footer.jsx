@@ -8,7 +8,7 @@ const Footer = () => {
         // setCopied(true);
     };
   return (
-      <div className="bg-[#071E22] mt-1">
+      <div className="bg-[#071E22] mt-1" id='contact'>
           <h1 className="font-bold text-center text-5xl p-8" style={{color:'#E5F2FF'}}>Contact Us</h1>
           <footer className="text-center text-white bg-[#071E22] sm:px-[20%] px-[10%]">
               <div className="container pt-9 flex justify-center mb-9">

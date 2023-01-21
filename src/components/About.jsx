@@ -15,7 +15,7 @@ Through this event, we seek to help students demonstrate how technology integrat
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img alt="Poster1" src={require('./Poster1.png')}></img>
+            <img alt="Poster1" src={require('../assets/Poster1.png')}></img>
           </div>
         </div>
       </section>
