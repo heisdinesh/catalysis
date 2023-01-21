@@ -2,7 +2,7 @@ import React from 'react'
 
 const Schedule = () => {
   return (
-    <div>
+    <div id='schedule'>
         <div className='bg-[#091C22] lg:max-w-full lg:py-12 lg:px-16 md:py-9 md:px-16 py-5 px-5'>
         <div className='text-[#E5F2FF] lg:font-bold lg:text-center lg:text-5xl lg:p-10 md:font-bold md:text-center md:text-5xl md:p-5 font-bold text-center text-5xl p-5 '>Schedule</div>
             <table class="border-collapse border border-slate-500 text-[#E5F2FF] mx-auto border-spacing-9 font-serif ">
