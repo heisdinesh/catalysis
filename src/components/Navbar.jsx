@@ -20,7 +20,7 @@ const Navbar = () => {
               <a href="#" onClick={() => {jump("event")}} className="text-[#E5F2FF] font-medium sm:text-2xl text-[18px] sm:mr-8 mr-3">Events</a>
               <a href="#" onClick={() => {jump("schedule")}} className="text-[#E5F2FF] font-medium sm:text-2xl text-[18px] sm:mr-8 mr-3">Schedule</a>
               <a href="#" onClick={() => {jump("sponsors")}} className="text-[#E5F2FF] font-medium sm:text-2xl text-[18px] sm:mr-8 mr-3">Sponsors</a>
-              <a href="#" onClick={() => {jump("faq")}} className="text-[#E5F2FF] font-medium sm:text-2xl text-[18px] sm:mr-8 mr-3">FAQ's</a>
+              <a href="#" onClick={() => {jump("faq")}} className="text-[#E5F2FF] font-medium sm:text-2xl text-[18px] sm:mr-8 mr-3">FAQs</a>
               
               {/* <button className="pt-1 pb-2 sm:px-8 px-3 rounded-lg sm:mr-8"  style={{backgroundColor: "#00FDFB"}}>
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLScPHYEWUOn239BvEt-L15O__OO1kaS_RxyCPrIg1Y1x0vISQw/viewform" target="_blank" className="text-[#071E22] font-medium sm:text-xl text-lg">Register</a>
@@ -59,7 +59,7 @@ const Navbar = () => {
               <a href="#" className="block text-[#E5F2FF] font-medium text-2xl mb-2" onClick={() => {
                   setIsOpen(!isOpen);
                   jump("faq");
-              }}>FAQ's</a>
+              }}>FAQ</a>
 
               {/* <button onClick={() => {
                   setIsOpen(!isOpen);
