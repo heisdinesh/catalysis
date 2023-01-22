@@ -6,7 +6,7 @@ const Landing = () => {
         <section className="bg-background text-fontcolor body-font">
           <div className="items-center justify-center">
               <div className="items-center justify-center">
-                  <img className="sm:px-[20%] px-[10%] pt-28" alt="Poster1" src={require('../assets/catalysis2.png')}/>
+                  <img className="sm:px-[20%] px-[10%] pt-28" alt="Poster1" src={require('../assets/catalysis3.png')}/>
               </div>
               <h1 className="font-bold mb-8 text-center justify-center sm:text-5xl text-3xl mb-0" style={{color: '#E5F2FF'}}>23 - 25 January 2023</h1>
               {/* <div className="flex justify-center">
