@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import Lottie from 'lottie-react'
+import question_gif from '../assets/question_gif.json'
 
 const FAQ = () => {
     const [open1, setOpen1] = useState(false);
@@ -9,12 +11,13 @@ const FAQ = () => {
     return (
 
 
-        <div className="py-[7%]" style={{backgroundColor: "#071E22"}} id='faq'>
+        <div className="py-[7%]" style={{ backgroundColor: "#071E22" }} id='faq'>
 
-            <h1 className="font-bold text-center text-5xl pb-16" style={{color:'#E5F2FF'}}>FAQs</h1>
+            <div className="font-bold text-center text-5xl pb-16" style={{ color: '#E5F2FF' }}>FAQs<Lottie className='w-1/4 mx-auto' animationData={question_gif} /></div>
+            {/* <div className="font-bold flex flex-col relative text-center text-5xl pb-16" style={{ color: '#E5F2FF' }}>FAQs<Lottie className='w-1/4 absolute top-[-10rem] inline' animationData={question_gif} /></div> */}
             <div className="">
 
-                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{backgroundColor: "#E5F2FF"}}>
+                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{ backgroundColor: "#E5F2FF" }}>
                     <button
                         className="w-full text-left p-4"
                         onClick={() => setOpen1(!open1)}
@@ -40,7 +43,7 @@ const FAQ = () => {
                             </div>
                         </div>
                     </button>
-                    <div className={`${open1 ? "block" : "hidden"} p-4`}>
+                    <div className={`${open1 ? "block bg-green-100" : "hidden"} p-4`}>
                         The technical fest will be held on the 23rd, 24th and 25th of January in the department of ISE.
                     </div>
                 </div>
@@ -48,7 +51,7 @@ const FAQ = () => {
 
             <div className="">
 
-                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{backgroundColor: "#E5F2FF"}}>
+                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{ backgroundColor: "#E5F2FF" }}>
                     <button
                         className="w-full text-left p-4"
                         onClick={() => setOpen2(!open2)}
@@ -74,7 +77,7 @@ const FAQ = () => {
                             </div>
                         </div>
                     </button>
-                    <div className={`${open2 ? "block" : "hidden"} p-4`}>
+                    <div className={`${open2 ? "block bg-green-100" : "hidden"} p-4`}>
                         The technical fest will typically include various events, such as coding competitions, pitch-an-idea, debates, and speaker sessions on various technical topics.
                     </div>
                 </div>
@@ -82,7 +85,7 @@ const FAQ = () => {
 
             <div className="">
 
-                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{backgroundColor: "#E5F2FF"}}>
+                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{ backgroundColor: "#E5F2FF" }}>
                     <button
                         className="w-full text-left p-4"
                         onClick={() => setOpen3(!open3)}
@@ -108,7 +111,7 @@ const FAQ = () => {
                             </div>
                         </div>
                     </button>
-                    <div className={`${open3 ? "block" : "hidden"} p-4`}>
+                    <div className={`${open3 ? "block bg-green-100" : "hidden"} p-4`}>
                         Yes, students of all departments are welcome to participate in the technical fest.
                     </div>
                 </div>
@@ -116,7 +119,7 @@ const FAQ = () => {
 
             <div className="">
 
-                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{backgroundColor: "#E5F2FF"}}>
+                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{ backgroundColor: "#E5F2FF" }}>
                     <button
                         className="w-full text-left p-4"
                         onClick={() => setOpen4(!open4)}
@@ -142,7 +145,7 @@ const FAQ = () => {
                             </div>
                         </div>
                     </button>
-                    <div className={`${open4 ? "block" : "hidden"} p-4`}>
+                    <div className={`${open4 ? "block bg-green-100" : "hidden"} p-4`}>
                         Yes, there will be prizes for the winners of the various competitions and events held during the technical fest.
                     </div>
                 </div>
@@ -150,7 +153,7 @@ const FAQ = () => {
 
             <div className="">
 
-                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{backgroundColor: "#E5F2FF"}}>
+                <div className="rounded-md shadow-md bg-white border-t border-gray-200 w-3/4 mx-[13%] my-2" style={{ backgroundColor: "#E5F2FF" }}>
                     <button
                         className="w-full text-left p-4"
                         onClick={() => setOpen5(!open5)}
@@ -176,16 +179,16 @@ const FAQ = () => {
                             </div>
                         </div>
                     </button>
-                    <div className={`${open5 ? "block" : "hidden"} p-4`}>
+                    <div className={`${open5 ? "block bg-green-100 " : "hidden"} p-4`}>
                         Registration for the technical fest will typically be done online on the official website or through a designated registration form.
                     </div>
                 </div>
             </div>
 
-            <br/><br/><br/>
+            <br /><br /><br />
 
         </div>
-    
+
     );
 }
 
